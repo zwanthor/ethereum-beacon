@@ -36,7 +36,7 @@ def recent_blocks(range):
     for block in response:
         jsonData = json.loads(response.content.decode('utf-8'))
         data.append(jsonData)
-    for block in blocks[0]["data"]:
+    for block in data[0]["data"]:
         blocks.append(block)
     return blocks
 

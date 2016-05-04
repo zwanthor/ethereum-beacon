@@ -25,5 +25,6 @@ def time_to_sleep(argv):
         print("No time was specified")
         sys.exit()
 
+#beacon_routine(timeToSleep)
 if __name__=="__main__":
     main(sys.argv)
